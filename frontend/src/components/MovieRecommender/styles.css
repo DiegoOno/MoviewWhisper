@@ -1,0 +1,40 @@
+.container {
+  width: 60vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 24px 24px 24px;
+}
+
+.search-area {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  column-gap: 16px;
+  margin-bottom: 16px;
+}
+
+.button {
+  height: 100%;
+  width: 20%;
+  color: white;
+  background-color: rgba(109, 109, 110, 0.7);
+  border-radius: 4px;
+  border: none;
+  transition: backgrount-color 2s;
+}
+
+.button:hover {
+  background-color: rgba(109, 109, 110, 1);
+}
+
+.searchLabel {
+  font-size: 16px;
+  font-weight: 400;
+}

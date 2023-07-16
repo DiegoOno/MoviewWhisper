@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  background-color: #141414;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow: hidden;
+}
+
+.App-header {
+  color: #e50914;
+  padding: 16px 0;
+}
+
+.App-header h1 {
+  margin: 0;
+  padding: 0;
+}
